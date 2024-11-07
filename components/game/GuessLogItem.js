@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
   },
 
   itemText: {
-    // fontFamily: "open-sans",
-    fontSize: 3,
+    fontFamily: "open-sans",
+    fontSize: 9,
   },
 });

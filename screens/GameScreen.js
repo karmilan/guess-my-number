@@ -1,6 +1,6 @@
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { useEffect, useState } from "react";
-import { Alert, FlatList, StyleSheet, View } from "react-native";
+import { Alert, Dimensions, FlatList, StyleSheet, View } from "react-native";
 import GuessLogItem from "../components/game/GuessLogItem";
 import NumberContainer from "../components/game/NumberContainer";
 import Card from "../components/ui/Card";
@@ -110,6 +110,8 @@ const GameScreen = ({ userNumber, onGameOver }) => {
     </View>
   );
 };
+
+const deviceHeight = Dimensions.get("window").height;
 
 export default GameScreen;
 
